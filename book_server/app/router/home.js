@@ -1,0 +1,54 @@
+module.exports = app => {
+  const {router,controller} = app
+    // 前台接口
+    router.get('/default/', controller.home.index);
+    router.get('/default/getBooksList', controller.home.getBooksList);
+    router.get('/default/getBanners', controller.home.getBanners);
+    router.get('/default/getTypesInfo', controller.home.getTypesInfo);
+    router.get('/default/getBooksListById/:id', controller.home.getBooksListById);
+    router.get('/default/getBookDetailById/:id', controller.home.getBookDetailById);
+    router.get('/default/getTypeById/:id', controller.home.getTypeById);
+    app.passport.mount('github');
+    router.get('/default/githubLogin', controller.home.githubLogin);
+    router.get('/default/baiduLogin', controller.home.baiduLogin);
+    router.post('/default/uploadFile', controller.home.uploadFile);
+    router.post('/default/deleteImg', controller.home.deleteImg);
+    router.post('/default/addBook', controller.home.addBook);
+    router.post('/default/updateBook', controller.home.updateBook);
+    router.post('/default/setViewCount', controller.home.setViewCount);
+    router.get('/default/findBookNameById/:id', controller.home.findBookNameById);
+    router.get('/default/getParentCommentsList', controller.home.getParentCommentsList);
+    router.get('/default/getChildrenCommentsList/:id', controller.home.getChildrenCommentsList);
+    router.post('/default/addParentComment', controller.home.addParentComment);
+    router.post('/default/likeBook', controller.home.likeBook);
+    router.post('/default/likePerson', controller.home.likePerson);
+    router.post('/default/dislikePerson', controller.home.dislikePerson);
+    router.post('/default/relyComment', controller.home.relyComment);
+    router.post('/default/addParentGood', controller.home.addParentGood);
+    router.post('/default/addParentBad', controller.home.addParentBad);
+    router.post('/default/resetParentGood', controller.home.resetParentGood);
+    router.post('/default/resetParentBad', controller.home.resetParentBad);
+    router.post('/default/changeBadComment', controller.home.changeBadComment);
+    router.post('/default/changeGoodComment', controller.home.changeGoodComment);
+    router.post('/default/addChildGood', controller.home.addChildGood);
+    router.post('/default/addChildBad', controller.home.addChildBad);
+    router.post('/default/resetChildrenGood', controller.home.resetChildrenGood);
+    router.post('/default/resetChildrenBad', controller.home.resetChildrenBad);
+    router.post('/default/changeChildBadComment', controller.home.changeChildBadComment);
+    router.post('/default/changeChildGoodComment', controller.home.changeChildGoodComment);
+    router.get('/default/getLikeBookPersonList/:id', controller.home.getLikeBookPersonList);
+    router.get('/default/getUserInfo/:id', controller.home.getUserInfo);
+    router.get('/default/getLikeBookList/:id', controller.home.getLikeBookList);
+    router.get('/default/getIssueBookList/:id', controller.home.getIssueBookList);
+    router.get('/default/getUserInfoById/:id', controller.home.getUserInfoById);
+    router.get('/default/getUserIdByName', controller.home.getUserIdByName);
+    router.post('/default/dislikeBook', controller.home.dislikeBook);
+    router.post('/default/goodPerson', controller.home.goodPerson);
+    router.post('/default/disgoodPerson', controller.home.disgoodPerson);
+    router.post('/default/deleteBookById', controller.home.deleteBookById);
+    router.post('/default/addIntroduce', controller.home.addIntroduce);
+    router.get('/default/getUserLikeListById/:id', controller.home.getUserLikeListById);
+    router.get('/default/getUserFansListById/:id', controller.home.getUserFansListById);
+    router.get('/default/getUserGoodsListById/:id', controller.home.getUserGoodsListById);
+    router.get('/default/getLikeList', controller.home.getLikeList);
+}

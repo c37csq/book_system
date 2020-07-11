@@ -1,0 +1,86 @@
+{
+  "id": "1773119",
+  "name": "book_admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13997113",
+      "name": "扇形图 (1)",
+      "font_class": "shanxingtu",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "12601430",
+      "name": "图表-柱状图",
+      "font_class": "zhuzhuangtu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4918006",
+      "name": "条形图",
+      "font_class": "tiaoxingtu",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "9290284",
+      "name": "数据统计",
+      "font_class": "shujutongji",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "13910942",
+      "name": "留言管理",
+      "font_class": "liuyanguanli",
+      "unicode": "e876",
+      "unicode_decimal": 59510
+    },
+    {
+      "icon_id": "14328929",
+      "name": "分类-选中",
+      "font_class": "feneli-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13965701",
+      "name": "表单 列表-03",
+      "font_class": "biaodanliebiao-",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "4139237",
+      "name": "书籍管理",
+      "font_class": "shujiguanli",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "13872054",
+      "name": "轮播图管理",
+      "font_class": "lunbotuguanli",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "1526274",
+      "name": "锁 1",
+      "font_class": "suo",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "677608",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}
